@@ -121,7 +121,7 @@ webpack --json > stats.json
 
 ### 环境选项
 
-当 webpack 配置对象[导出为一个函数](/configuration/configuration-types#exporting-a-function)时，可以向起传入一个"环境对象(environment)"。
+当 webpack 配置对象[导出为一个函数](/configuration/configuration-types#exporting-a-function)时，可以向其传入一个"环境对象(environment)"。
 
 ```bash
 webpack --env.production    # 设置 env.production == true
